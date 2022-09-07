@@ -1,0 +1,409 @@
+body{
+    background-color: #222f44
+}
+/* #para{ */
+    /* border: 3px solid rgb(216, 158, 208);
+    width: 33%;
+    height: 500px;
+    color: black;
+    background-color: rgb(196, 87, 87);
+    position: center;
+    margin-left: 31%;
+    margin-top: 25px; */
+   
+/* } */
+#textField{
+    margin-left: 31%;
+    height: 25px;
+    width: 380px;
+    border-radius: 4px;
+    border: none;
+    
+}
+div p{
+    background-color: hsl(215, 40%, 48%);
+    height: 30px;
+    width: 440px;
+    /* text-ma: center; */
+    padding-top: 9px;
+    padding-left: 5px;
+    margin-top: 14px;
+    margin-left: 29%;
+    /* cursor:auto; */
+    border-radius: 8px;
+    
+   
+   
+}
+i.fa.fa-trash::before{
+    color: rgb(173, 8, 8);
+}
+i.fa.fa-pencil-square-o::before{
+    color:	rgb(255,175, 0);
+}
+i.fa.fa-check-circle::before{
+    color:rgb(17, 82, 17);
+}
+div p button{
+    float: right;
+    height: 17px;
+    margin-right: 5px;
+    /* margin-top: 1px; */
+    background-color: hsl(215, 40%, 48%);
+    border: none;
+    font-size: 22px;
+    /* position: absolute; */
+    top: 154px;
+    right: 485px;
+    /* color: rgb(161, 12, 12); */
+    /* position: fixed; */
+    
+}
+h1{
+   /* margin-left: 38%; */
+  color:  hsl(215, 40%, 48%);
+
+}
+#news{
+    height: 28px;
+    background-color: hsl(215, 40%, 48%);
+    width: 50px;
+    border: none;
+    margin-top: 0.5px;
+    position: absolute;
+    /* left: 811px; */
+    top: 78px;
+    margin-top: 0.5px;
+    border-radius: 6px;
+    font-size: 12px;
+    margin-left: 8px;
+    
+}
+@media(min-width: 1366px){
+  
+   div p{
+    margin-left:33.89%;
+    /* margin-right:  500px; */
+    /* position: relative; */
+    
+}
+#textField{
+   margin-left: 34.1%;
+}
+h1{
+    margin-left: 41.1%;
+}
+   
+}
+@media(min-width: 1604px){
+   
+   div p{
+    margin-left:35%;
+    /* margin-right:  500px; */
+    /* position: relative; */
+    
+}
+#textField{
+   margin-left: 35.2%;
+}
+h1{
+    margin-left: 41.1%;
+}
+   
+}
+@media(max-width: 1365px){
+  
+   div p{
+    margin-left:30.89%;
+    /* margin-right:  500px; */
+    /* position: relative; */
+    
+}
+h1{
+    margin-left: 39.8%;
+}
+   
+}
+@media(max-width: 1013px){
+    div p{
+        margin-left:27.3%;  
+    }    
+    #textField{
+       margin-left: 27.3%;
+    }
+    h1{
+      margin-left: 39.2%;
+  }
+}
+@media(max-width: 848px){
+    div p{
+       margin-left: 22%;   
+    }
+    #textField{
+        margin-left: 22%;
+     }
+     h1{
+      margin-left: 34%;
+  }
+}
+@media(max-width: 692px){
+    div p{
+       margin-left: 16.9%;    
+       width: 410px;
+    } 
+    #textField{
+        margin-left: 17%;
+        width: 350px;
+     }
+     h1{
+      margin-left: 30%;
+  }
+}
+@media(max-width: 582px){
+    div p{
+       margin-left: 13.9%;
+       width: 400px;   
+    }
+    #textField{
+        margin-left: 14%;
+        width: 338px;
+     }
+     div p button{
+      font-size: 19px;
+      margin-left: -6.8px;
+    }
+    h1{
+      margin-left: 28.5%;
+  }
+}
+@media(max-width: 530px){
+    div p{
+       margin-left: 13%;
+       width: 357px;   
+    }
+    #textField{
+        margin-left: 13%;
+        width: 298px;
+     }
+     div p button{
+      font-size: 18.7px;
+      margin-left: -7.2px;
+    }
+    h1{
+      margin-left: 25.5%;
+  }
+}
+@media(max-width: 464px){
+    div p{
+       margin-left: 8.6%;
+       width: 356px;   
+    }
+    #textField{
+        margin-left: 9.6%;
+        width: 294px;
+     }
+     div p button{
+      font-size: 18.7px;
+      margin-left: -7.5px;
+    }
+    h1{
+      margin-left: 24%;
+  }
+}
+@media(max-width: 432px){
+    div p{
+       margin-left: 8%;
+       width: 340px;   
+       height: 26px;
+    }
+    #textField{
+        margin-left: 8.8%;
+        width: 285px;
+        height: 26px;
+     }
+     #news{
+        width: 40px;
+        height: 29px;
+        margin-top: -8px;
+     }
+     h1{
+        font-size: 27.8px;
+     }
+     div p button{
+      font-size: 18.5px;
+      margin-left: -7.5px;
+    }
+}
+@media(max-width: 420px){
+    div p{
+       margin-left: 10%;
+       width: 320px;   
+       height: 25px;
+    }
+    #textField{
+        margin-left: 10%;
+        width: 270px;
+        height: 29px;
+     }
+     #news{
+        width: 40px;
+        height: 29px;
+        margin-top: -8.4px;
+     }
+     /* h1{
+         font-size: 27.8px;
+         margin-left: 25%;
+         
+     } */
+     div p button{
+      font-size: 18.7px;
+      margin-left: -7.5px;
+    }
+}
+@media(max-width: 381px){
+    div p{
+       margin-left: 4.5%;
+       width: 320px;   
+       height: 25.5px;
+    }
+    #textField{
+        margin-left: 5.3%;
+        width: 265px;
+        height: 27.5px;
+     }
+     h1{
+      margin-left: 21%;
+  }
+     #news{
+        width: 40px;
+        height: 29px;
+        margin-top: -8px;
+     }
+     h1{
+        font-size: 27.8px;
+     }
+     div p button{
+      font-size: 18.5px;
+      margin-left: -8px;
+    }
+}
+@media(max-width: 367px){
+    div p{
+       margin-left: 7%;
+       width: 285px;   
+       height: 29px;
+    }
+    #textField{
+        margin-left: 7.7%;
+        width: 232px;
+        height: 28.5px;
+     }
+     #news{
+        width: 40px;
+        height: 29px;
+        margin-top: -13px;
+     }
+     h1{
+        font-size: 26px;
+     }
+     div p button{
+      font-size: 18.5px;
+      margin-left: -9px;
+    }
+}
+@media(max-width: 335px){
+    div p{
+       margin-left: 5.2%;
+       width: 275px;   
+       height: 28.5px;
+    }
+    #textField{
+        margin-left: 5.9%;
+        width: 222px;
+        height: 29.5px;
+     }
+     #news{
+        width: 40px;
+        height: 29px;
+        margin-top: -16px;
+     }
+     h1{
+        font-size: 25px;
+     }
+     div p button{
+      font-size: 18.5px;
+      margin-left: -9px;
+    }
+}
+@media(max-width: 318px){
+   div p{
+      margin-left: 5.2%;
+      width: 263px;   
+      height: 30.5px;
+   }
+   #textField{
+       margin-left: 5.9%;
+       width: 210px;
+       height: 25.5px;
+    }
+    #news{
+       width: 40px;
+       height: 27.5px;
+       margin-top: -20px;
+    }
+    h1{
+       font-size: 23.8px;
+    }
+    div p button{
+      font-size: 17px;
+      margin-left: -9px;
+    }
+}
+@media(max-width: 303px){
+   div p{
+      margin-left: 4.8%;
+      width: 248px;   
+      height: 28.5px;
+   }
+   #textField{
+       margin-left: 5.5%;
+       width: 195px;
+       height: 25.5px;
+    }
+    #news{
+       width: 40px;
+       height: 27px;
+       margin-top: -25px;
+    }
+    h1{
+       font-size: 21px;
+    }
+    div p button{
+      font-size: 17px;
+      margin-left: -9px;
+    }
+}
+@media(max-width: 288px){
+   div p{
+      margin-left: 4.8%;
+      width: 240px;   
+      height: 28.5px;
+   }
+   #textField{
+       margin-left: 5.5%;
+       width: 190px;
+       height: 25.5px;
+    }
+    #news{
+       width: 40px;
+       height: 27px;
+       margin-top: -26px;
+    }
+    h1{
+       font-size: 20.8px;
+    }
+    div p button{
+      font-size: 17px;
+      margin-left: -9px;
+    }
+}
